@@ -36,11 +36,11 @@ export default function AddFoodRecipe() {
             </div>
             <div className='form-control'>
                 <label>Ingredients</label>
-                <textarea type="text" className='input-text-area' name="ingredients" rows="5" onChange={onHandleChange}></textarea>
+                <textarea type="text" className='input-textarea' name="ingredients" rows="5" onChange={onHandleChange}></textarea>
             </div>
             <div className='form-control'>
                 <label>Instructions</label>
-                <textarea type="text" className='input-text-area' name="instructions" rows="5" onChange={onHandleChange}></textarea>
+                <textarea type="text" className='input-textarea' name="instructions" rows="5" onChange={onHandleChange}></textarea>
             </div>
             <div className='form-control'>
                 <label>Recipe Image</label>

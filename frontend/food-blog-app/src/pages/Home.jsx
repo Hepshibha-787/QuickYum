@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import christmas from "../assets/christmas.jpg";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import MainNavigation from "../components/MainNavigation";
 import RecipeItems from "../components/RecipeItems";
 import { useNavigate } from "react-router-dom";
 import Modal from "../components/Modal";
-import InputForm from "../components/inputForm";
+import InputForm from "../components/InputForm";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -22,8 +24,9 @@ export default function Home() {
         <div className="left">
           <h1>QuickYum</h1>
           <h5>
-            This is an user-friendly recipe sharing platform where users can collaborate,
-            write,edit,share and make any recipe as their favorites.. and this is a cool application{" "}
+            This is an user-friendly recipe sharing platform where users can
+            collaborate, write,edit,share and make any recipe as their
+            favorites.. and this is a cool application{" "}
           </h5>
           <button onClick={addRecipe}>Share your recipe</button>
         </div>
